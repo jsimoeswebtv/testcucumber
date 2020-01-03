@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-03T13:41:47.645Z",
+        "line": 4,
+        "name": "Sunday isn\u0027t Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;sunday-isn-t-friday",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.nos.cucumber.steps.today_is_Sunday(steps.java:20)\r\n\tat ✽.today is Sunday(file:src/test/resources/myfeatures.feature:5)\r\n",
+              "duration": 5707300,
+              "status": "pending"
+            },
+            "line": 5,
+            "name": "today is Sunday",
+            "match": {
+              "location": "steps.today_is_Sunday()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1056100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "steps.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1197400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.i_should_be_told(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet?",
+    "description": "  Everybody wants to know when it\u0027s Friday",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/myfeatures.feature",
+    "tags": []
+  }
+]
