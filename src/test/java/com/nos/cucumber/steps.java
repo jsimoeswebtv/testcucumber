@@ -32,13 +32,13 @@ public class steps {
     @Given("i can do a test")
 public void i_can_do_a_test() {
     // Write code here that turns the phrase above into concrete actions
-    throw new cucumber.api.PendingException();
+    
 }
 
 @Then("i want to check something")
 public void i_want_to_check_something() {
     // Write code here that turns the phrase above into concrete actions
-    throw new cucumber.api.PendingException();
+   
 }
 
     /**
